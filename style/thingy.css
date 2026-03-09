@@ -9,6 +9,7 @@ body{
     justify-content: center;
     margin: 0;
 }
+
 .rectangle{
     height: 60px;
     width: 250px;
@@ -16,6 +17,7 @@ body{
     margin: 3px;
     border-radius: 20px;
 }
+
 .click{
     position: absolute;
     top: 250px;
