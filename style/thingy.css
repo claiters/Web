@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 
-.rectangle{
+.box{
     height: 60px;
     width: 250px;
     background: red;
@@ -18,8 +18,8 @@ body{
     border-radius: 20px;
 }
 
-.click{
+.move{
     position: absolute;
-    top: 250px;
-    left: 250px;
+    top: 300px;
+    left: 550px;
 }
