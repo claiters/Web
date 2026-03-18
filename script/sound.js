@@ -1,17 +1,20 @@
-buttons = document.querySelector('.buttons')
 sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
 
-for (let i = 0; i < 6; i = i + 1){
-btn = document.createElement('button')
-//This puts the element into the div called buttons
-btn.innerText=sounds[i]
-btn.classList.add('btn')
-btn.addEventListener(`click`, () =>{
-    document.querySelector(`.${sounds[i]}`).play()
+sounds.forEach(sound => {
+    btn = document.createElement('button')
+    btn.classList.add('btn')
+    btn.innerText = sound
+    btn.addEventListener('click', () => {
+        stopSongs()
+        document.getElementById(sound).play()
+    })
+    document.getElementById('buttons').appendChild(btn)
 })
-buttons.appendChild(btn)
+
+function stopSongs() {
+    sounds.forEach(sound => {
+        song = document.getElementById(sound)
+        song.pause()
+        song.currentTime = 0
+    })
 }
-
-
-
-
