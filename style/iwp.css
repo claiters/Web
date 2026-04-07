@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: grey;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.ttlesctn{
+    background: beige;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.links{
+    color: white;
+}
+
+.one{
+    position: absolute;
+    background: beige;
+    top: 200px;
+    left: 60px;
+    font-size: 32px;
+}
+.two{
+    position: absolute;
+    background: beige;
+    top: 250px;
+    left: 60px;
+    font-size: 32px;
+}
+.three{
+    position: absolute;
+    background: beige;
+    top: 300px;
+    left: 60px;
+    font-size: 32px;
+}
+.four{
+    position: absolute;
+    background: beige;
+    top: 350px;
+    left: 60px;
+    font-size: 32px;
+}
+.five{
+    position: absolute;
+    background: beige;
+    top: 400px;
+    left: 60px;
+    font-size: 32px;
+}
+.six{
+    position: absolute;
+    background: beige;
+    top: 450px;
+    left: 60px;
+    font-size: 32px;
+}
+.seven{
+    position: absolute;
+    background: beige;
+    top: 500px;
+    left: 60px;
+    font-size: 32px;
+}
+.eight{
+    position: absolute;
+    background: beige;
+    top: 200;
+    right: 60px;
+    font-size: 32px;
+}
+
+

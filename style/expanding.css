@@ -47,3 +47,12 @@ body {
 .panel.active h3{
     opacity: 1;
 }
+.home{
+    position: absolute;
+    bottom: 75px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background: beige;
+}
