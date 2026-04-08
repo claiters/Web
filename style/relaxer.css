@@ -70,4 +70,40 @@ body{
     width: 20px;
     height: 190px;
     transform-origin: bottom center;
+    animation: rotate 7.5s linear forwards infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.container.grow {
+    animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+.container.shrink {
+    animation: shrink 3s linear forwards;
+}
+
+@keyframes shrink {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
 }
