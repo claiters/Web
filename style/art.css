@@ -62,6 +62,7 @@ body{
     background: yellow;
     bottom: 100px;
     left: 500px;
+    z-index: 100;
 
 }
 
