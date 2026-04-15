@@ -13,9 +13,10 @@ body{
 }
 
 .grass{
-background: green;
-display: flex;
+    background: green;
+    display: flex;
+    position:absolute;
     height: 60px;
-    width: 400px;
-    bottom: 200px;
+    width: 1300px;
+    bottom: 0px;
 }
