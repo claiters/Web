@@ -30,3 +30,28 @@ body{
     width: 50px;
     background: #F0F0F0;
 }
+
+.parkinglott{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    background: black;
+    height:60px;
+    width: 500px;
+}
+.hotel{
+    position: absolute;
+    left: 416px;
+    top: 40px;
+    height: 500px;
+    width: 400px;
+    background: grey;
+}
+.door{
+    position: absolute;
+    background: #654321;
+    height: 100px;
+    width: 50px;
+    bottom: 60px;
+    left: 600px;
+}
