@@ -20,3 +20,10 @@ body{
     width: 1300px;
     bottom: 0px;
 }
+
+.moon{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    
+}
